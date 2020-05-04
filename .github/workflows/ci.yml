@@ -34,3 +34,5 @@ jobs:
         ls
         ls $GITHUB_WORKSPACE
         echo $TEST_SECRET
+        echo $TEST_SECRET > test.txt
+        cat test.txt
